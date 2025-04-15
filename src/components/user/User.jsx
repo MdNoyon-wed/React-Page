@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const User = ({user}) => {
-  const {id ,name ,email, phone} = user;
+  const {id,name ,email, phone} = user;
   const userStyle = {
     border:'2px solid yellow',
     margin:'10px',
